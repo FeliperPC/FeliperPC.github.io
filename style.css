@@ -1,7 +1,20 @@
 #minha-foto{
     border: 3px solid blue;
     width: 500px;
+    float: left;
 }
 div{
-    border: 2px solid green;
+    padding: 5px;
+}
+div:nth-child(1) > h1{
+    text-align: center;
+}
+.img-container{
+    height: 357px;
+    position: relative;
+}
+.description{
+    position: absolute;
+    left: 510px;
+    top:130px;
 }
